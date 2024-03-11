@@ -4,8 +4,7 @@ import {
   faBugSlash,
   faShieldHalved,
 } from "@fortawesome/free-solid-svg-icons";
-import { animate, motion } from "framer-motion";
-import { useState } from "react";
+import { motion } from "framer-motion";
 
 export default function AboutMe() {
   return (

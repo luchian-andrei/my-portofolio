@@ -1,6 +1,10 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import { faLinkedin, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import {
+  faLinkedin,
+  faInstagram,
+  faGithub,
+} from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer() {
   return (
@@ -30,17 +34,35 @@ export default function Footer() {
       <div className="cv">
         <p>If you wanna find more about me you can do it by visiting my:</p>
 
-        <a href="https://www.linkedin.com/in/andrei-luchian-b73a69251/">
+        <a
+          href="https://www.linkedin.com/in/andrei-luchian-b73a69251/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FontAwesomeIcon
             icon={faLinkedin}
             style={{ color: "blue", marginRight: "10px", fontSize: "30px" }}
           />
         </a>
 
-        <a href="https://www.instagram.com/luchian.andreii/?next=%2F">
+        <a
+          href="https://www.instagram.com/luchian.andreii/?next=%2F"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FontAwesomeIcon
             icon={faInstagram}
             style={{ color: "magenta", marginRight: "10px", fontSize: "30px" }}
+          />
+        </a>
+        <a
+          href="https://github.com/luchian-andrei"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FontAwesomeIcon
+            icon={faGithub}
+            style={{ color: "black", marginRight: "10px", fontSize: "30px" }}
           />
         </a>
       </div>
