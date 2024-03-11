@@ -46,16 +46,6 @@ export default function Footer() {
         </a>
 
         <a
-          href="https://www.instagram.com/luchian.andreii/?next=%2F"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <FontAwesomeIcon
-            icon={faInstagram}
-            style={{ color: "magenta", marginRight: "10px", fontSize: "30px" }}
-          />
-        </a>
-        <a
           href="https://github.com/luchian-andrei"
           target="_blank"
           rel="noreferrer"
