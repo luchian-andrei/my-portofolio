@@ -85,6 +85,12 @@ export default function Projects() {
         description="Weather App that gives you details such as Temperature, Wind Speed, Minimum and Maximum Temp. during the day and many more. Be careful to enter a valid city name."
         link="https://luchian-andrei.github.io/weather-app/"
       />
+      <ProjectCardRight
+        imageSrc="./images/expense-app.png"
+        title="Expense App"
+        description="Expense app with a dummy initial balance that increase or decrease depending on the registered transactions. Has a invalid login form, an error 404 page and you can select light or dark mode. Was styled using Tailwind CSS"
+        link="https://luchian-andrei.github.io/expense-app/"
+      />
     </div>
   );
 }
