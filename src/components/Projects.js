@@ -91,6 +91,12 @@ export default function Projects() {
         description="Expense app with a dummy initial balance that increase or decrease depending on the registered transactions. Has a invalid login form, an error 404 page and you can select light or dark mode. Was styled using Tailwind CSS"
         link="https://luchian-andrei.github.io/expense-app/"
       />
+      <ProjectCardLeft
+        imageSrc="./images/theDiv.png"
+        title="TheDiv"
+        description="This project gives you a div and some of the most-known CSS properties to choose from. The purpose of this project is to see how the div reacts to the properties so you can better understand the process of styling the elements using CSS."
+        link="https://luchian-andrei.github.io/the-div/"
+      />
     </div>
   );
 }
