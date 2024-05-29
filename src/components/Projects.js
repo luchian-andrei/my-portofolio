@@ -97,6 +97,12 @@ export default function Projects() {
         description="This project gives you a div and some of the most-known CSS properties to choose from. The purpose of this project is to see how the div reacts to the properties so you can better understand the process of styling the elements using CSS."
         link="https://luchian-andrei.github.io/the-div/"
       />
+      <ProjectCardRight
+        imageSrc="./images/currencyConverter.png"
+        title="Currency Converter"
+        description="Currency converter where you can choose between some of the most popular currency at the moment. You can also choose the language. When the required fields are not completed you will be notified. Enjoy !"
+        link="https://luchian-andrei.github.io/currency-converter/"
+      />
     </div>
   );
 }
