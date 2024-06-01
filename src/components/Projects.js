@@ -103,6 +103,12 @@ export default function Projects() {
         description="Currency converter where you can choose between some of the most popular currency at the moment. You can also choose the language. When the required fields are not completed you will be notified. Enjoy !"
         link="https://luchian-andrei.github.io/currency-converter/"
       />
+      <ProjectCardLeft
+        imageSrc="./images/weather-app-updated.png"
+        title="Weather App 2.0."
+        description="An update to the old weather app. Added alerts on some actions, added the favorites section (made using local storage) and made a new desing. I will let the old app here for the comparison. Enjoy !"
+        link="https://luchian-andrei.github.io/weather-updated/"
+      />
     </div>
   );
 }
